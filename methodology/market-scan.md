@@ -1,81 +1,69 @@
-
 # Market Scan Methodology
 
-Use this as a checklist. One search per bullet minimum. Use short, specific queries (3–6 words) with "this week" or the current year.
+Use this as a checklist. **One search per bullet, maximum.** Short queries (3–6 words). The goal is signal, not exhaustiveness — if nothing interesting turns up in one search, move on.
 
-## Macro layer
+## Macro layer (5 searches max)
 
-- Latest Fed decision or minutes
-- Latest ECB decision or minutes
-- Latest BOJ action
-- Most recent US CPI / PCE print
-- Most recent EU HICP / PMI
-- Most recent US NFP / unemployment
-- 10Y UST yield current level
-- 10Y Bund yield current level
-- DXY current level
-- VIX current level
-- Any major geopolitical event (war, sanctions, elections) past 7 days
+Combine multiple data points into one query where possible:
 
-## Equity sectors (US + EU)
+- "Fed ECB latest decision" (covers both)
+- "US CPI PCE this month"
+- "Eurozone HICP latest"
+- "10Y Treasury yield today DXY VIX"
+- Any single major geopolitical event of the past 7 days (skip if nothing notable)
 
-For each: search "[sector] this week" and "[sector] biggest movers". Note anything with a >5% weekly move on news, or any sector at an extreme vs 200-day.
+## Equity sectors (one search each — pick only sectors showing activity)
 
-- Technology (mega-cap, semis, software, AI)
-- Energy (oil majors, renewables, utilities overlap)
-- Financials (banks, insurers, asset managers)
-- Healthcare (biotech catalysts, big pharma, medtech)
-- Industrials (aerospace, defense, capital goods)
-- Consumer discretionary (retail, autos, travel)
-- Consumer staples
-- Materials (chemicals, metals, mining)
-- Real estate (REITs, rates-sensitive)
-- Communication services
-- Spain / Iberia specific (IBEX 35 movers, if notable)
+Start with a single sweep query:
+- "biggest sector movers this week US equities"
 
-## Crypto
+Then follow up with ONE search per sector that looked notable from the sweep. Skip sectors with nothing unusual. Typical coverage: 3–5 sector searches total, not 10.
 
-- BTC price + weekly move
-- ETH price + weekly move
-- Top gainers this week (top-100 mcap)
-- Any major protocol news / exploits / upgrades
-- ETF flows if available
-- Regulatory news (SEC, MiCA)
+Candidate sectors to consider (pick the ones that matter this week):
+- Technology / semis / AI
+- Energy
+- Financials
+- Healthcare / biotech
+- Industrials / defense
+- Consumer discretionary
+- Materials / metals
 
-## Commodities
+Include one Iberia-specific search if IBEX had notable moves.
 
-- Gold spot + weekly move
-- Silver spot
-- WTI crude + weekly move
-- Brent crude
-- Natural gas
-- Copper
-- Agricultural (wheat, corn, soy) if anything unusual
+## Crypto (2 searches max)
 
-## Rates / credit
+- "bitcoin ethereum weekly move this week"
+- Only if a specific narrative emerges: one follow-up search on it
 
-- US 2Y and 10Y yields, curve shape
-- German 10Y
-- HY credit spreads (any widening?)
-- IG spreads
-- Any sovereign auction stress
+Skip entirely if crypto markets were quiet.
 
-## Idiosyncratic
+## Commodities (2 searches max)
 
-- Upcoming earnings of major movers (next 7 days)
-- Upcoming economic data (next 7 days)
-- Corporate actions (spin-offs, M&A, IPOs) with clear catalysts
+- "gold oil copper prices this week"
+- Only if specific news emerged: one follow-up search
 
-## Signal filters
+## Rates / credit (1 search)
 
-Promote an idea to the shortlist only if it meets at least ONE:
+- "Treasury yields credit spreads this week"
+
+## Upcoming calendar (1 search)
+
+- "economic data earnings calendar next week"
+
+## Signal filters (apply tightly)
+
+Promote to shortlist only if:
 1. Clear binary catalyst within the stated horizon
 2. Meaningful price dislocation vs fundamentals
-3. Regime shift that forces repricing (rates, currency, policy)
-4. Contrarian setup where sentiment is extreme and positioning is crowded against it
+3. Regime shift forcing repricing
+4. Extreme sentiment / crowded positioning offering contrarian setup
 
-Reject if:
-- "Story is getting popular" with no specific catalyst
-- Based purely on chart patterns with no fundamental or macro driver
-- Requires multiple unlikely things to all go right
-- Purely momentum-following late in a move
+Reject:
+- Narrative without catalyst
+- Chart patterns without fundamental driver
+- Multi-leg theses requiring everything to go right
+- Late momentum
+
+## Budget discipline
+
+**Total searches per run: aim for 10–12, hard cap at 15.** If you're approaching that number and haven't found strong candidates, wrap up. A short report is always better than a timed-out one.
