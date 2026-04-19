@@ -65,7 +65,7 @@ Apply the structure from `thesis-building.md` to each candidate.
 Include the full block from `risk-framing.md`. Not optional.
 
 ## Step 10 — Commit report
-Create `history/<REPORT_ID>.md` with this structure:
+Create `history/<REPORT_ID>.md` with this EXACT structure. The `## Email Digest` section is mandatory — a GitHub Actions workflow extracts that fenced block and emails it to the user, so the format must match:
 
 ```markdown
 # Weekly Research Report — <REPORT_ID>
@@ -92,29 +92,32 @@ Generated: <YYYY-MM-DD>
 
 ## Sources
 [URLs of key articles/data]
+
+## Email Digest
+\`\`\`
+Weekly Research — <REPORT_ID>
+Generated: <YYYY-MM-DD>
+
+=== Macro Snapshot ===
+[one line summary]
+
+=== Ideas This Week ===
+1. [Asset] [Horizon]: [thesis, 1–2 sentences]
+   Catalyst: [...]
+   Invalidation: [...]
+
+2. [Asset] [Horizon]: [...]
+   ...
+
+=== Watch Next Week ===
+- [key data point]
+- [key data point]
+\`\`\`
 ```
 
-Commit with message: `weekly report <REPORT_ID>`.
+Commit with message: `weekly report <REPORT_ID>` on the default branch.
 
-## Step 11 — Send Telegram digest
-Use the Telegram connector to send:
-
-```
-📊 Weekly Research — <REPORT_ID>
-
-Macro: [one line]
-
-Ideas:
-• [Asset] [Horizon]: [thesis <80 chars]
-• ...
-
-Watch: [1–2 key data points next week]
-
-⚠️ Research leads only. Not financial advice.
-Full report: <github URL of the committed file>
-```
-
-If the Telegram connector fails, still commit the report. Do not retry more than once.
+After committing, the GitHub Actions workflow (`.github/workflows/email-digest.yml`) automatically picks up the push and emails the digest. You do NOT need to call the Gmail connector — email delivery is handled by the workflow. Do not create drafts, do not call Gmail, do not attempt to send anything. Your job ends at the commit.
 
 # Hard rules
 
