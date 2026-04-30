@@ -98,6 +98,6 @@ jobs:
           username: ${{ secrets.GMAIL_USER }}
           password: ${{ secrets.GMAIL_APP_PASSWORD }}
           subject: "📊 Weekly Research — ${{ steps.find.outputs.report_id }}"
-          to: ${{ secrets.GMAIL_USER }}
+          to: ${{ secrets.EMAIL_RECIPIENTS }}
           from: Investment Research Agent <${{ secrets.GMAIL_USER }}>
           body: file:///tmp/email_body.txt
